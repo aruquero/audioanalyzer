@@ -23,9 +23,7 @@ Nuestra aplicación se fundamenta en una ventana segmentada en dos secciones com
 
 Sección superior:
 
-  Se fundamenta en una "matriz" cuadrada para la representación de la amplitud del audio. Esta representación se fundamenta en un total de 64 cuadrados, divididos en  
-  en 8 filas con 8 columnas, las cuales cambian su tonalidad de negro a blanco en función de la canción u audio que se esté reproduciendo en ese momento. 
-  Como apunte, si se llegan    a reproducir canciones con una ganancia muy alta, esta tabla puede verse algo mermada debido a que no tiene tanto recorrido como para representar sonido con una amplitud muy alta.
+Se fundamenta en una "matriz" cuadrada para la representación de la amplitud del audio. Esta representación se fundamenta en un total de 64 cuadrados, divididos en en 8 filas con 8 columnas, las cuales cambian su tonalidad de negro a blanco en función de la canción u audio que se esté reproduciendo en ese momento. Como apunte, si se llegan a reproducir canciones con una ganancia muy alta, esta tabla puede verse algo mermada debido a que no tiene tanto recorrido como para representar sonido con una amplitud muy alta.
   
 ![N|Solid](https://i.gyazo.com/90ac84c64f57cd2c273c1f07c1f0268e.png)
 
