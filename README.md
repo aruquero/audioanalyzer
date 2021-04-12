@@ -20,8 +20,10 @@ En esta séptima entrega hemos tenido que realizar un acercamiento a la represen
 **La aplicación**:
 
 Nuestra aplicación se fundamenta en una ventana segmentada en dos secciones completamente diferentes, aunque relacionadas entre si:
+
 Sección superior:
-  -Se fundamenta en una "matriz" cuadrada para la representación de la amplitud del audio. Esta representación se fundamenta en un total de 64 cuadrados, divididos en  
+
+  Se fundamenta en una "matriz" cuadrada para la representación de la amplitud del audio. Esta representación se fundamenta en un total de 64 cuadrados, divididos en  
   en 8 filas con 8 columnas, las cuales cambian su tonalidad de negro a blanco en función de la canción u audio que se esté reproduciendo en ese momento. 
   Como apunte, si se llegan    a reproducir canciones con una ganancia muy alta, esta tabla puede verse algo mermada debido a que no tiene tanto recorrido como para representar sonido con una amplitud muy alta.
   
@@ -29,7 +31,7 @@ Sección superior:
 
 Sección inferior:
 
-    -Una representación similar a la superior, no obstante en esta ocasión son líneas las que se encargan de representar lo mismo que nuestra parte superior, no obstante ahora se consigue vislumbrar mejor dado a la naturaleza de las líneas. Hemos decidido cambiar el color de las líneas para así poder distinguir mejor la separación de las mismas y poder apreciar mejor los cambios de las mismas.
+Una representación similar a la superior, no obstante en esta ocasión son líneas las que se encargan de representar lo mismo que nuestra parte superior, no obstante ahora se consigue vislumbrar mejor dado a la naturaleza de las líneas. Hemos decidido cambiar el color de las líneas para así poder distinguir mejor la separación de las mismas y poder apreciar mejor los cambios de las mismas.
 
 ![N|Solid](https://i.gyazo.com/6acf9c35d7160e79198bec371c2d5ec6.png)
 
