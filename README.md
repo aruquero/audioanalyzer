@@ -15,44 +15,35 @@
 
 **Introducción**:
 
-En esta quinta entrega hemos tenido la oportunidad de afrontar un proyecto abierto, centrado en la iluminación de una escena o composición, y al mismo tiempo el poder brindar al usuario unos controles de cámara para visualizar dicha escena.
+En esta séptima entrega hemos tenido que realizar un acercamiento a la representación y análisis del audio utilizando "Minim". Este ha sido nuestra segunda toma de contacto con el audio en processing, en esta ocasión es relacionada con el tratamiento y no la implementación práctica.
 
 **La aplicación**:
 
-Nuestra aplicación se fundamenta en una escena compuesta por tres modelos 3d u objetos, los cuales son:
+Nuestra aplicación se fundamenta en una ventana segmentada en dos secciones completamente diferentes, aunque relacionadas entre si:
+Sección superior:
+  -Se fundamenta en una "matriz" cuadrada para la representación de la amplitud del audio. Esta representación se fundamenta en un total de 64 cuadrados, divididos en  
+  en 8 filas con 8 columnas, las cuales cambian su tonalidad de negro a blanco en función de la canción u audio que se esté reproduciendo en ese momento. 
+  Como apunte, si se llegan    a reproducir canciones con una ganancia muy alta, esta tabla puede verse algo mermada debido a que no tiene tanto recorrido como para representar sonido con una amplitud muy alta.
 
-    -Una silla
-  
-    -Un escritorio
-  
-    -Una lámpara de escritorio
-  
-Dichos elementos están colocados de una forma orgánica simulando una habitación. Esta habitación se situa como eje central de nuestra cámara, esto implica que somos capaces de girar y "orbitar" al rededor de esta, pero nunca podemos dejarla de ver. Así mismo tenemos un foco de iluminación en nuestro ratón, es decir, allí donde esté apuntando nuestro puntero generará un foco de luz. Por último, tenemos una iluminación ambiental para darle profundidad a la escena.
+Sección inferior:
+
+    -Una representación similar a la superior, no obstante en esta ocasión son líneas las que se encargan de representar lo mismo que nuestra parte superior, no obstante ahora se consigue vislumbrar mejor dado a la naturaleza de las líneas. Hemos decidido cambiar el color de las líneas para así poder distinguir mejor la separación de las mismas y poder apreciar mejor los cambios de las mismas.
 
 ![N|Solid](https://i.gyazo.com/7476228273e00ff13c9a1edb15267a58.png)
 
 **Decisiones de diseño**:
 
-Se ha decidido mantener nuestra composición de objetos como eje central de la escena para así imposibilitar mareos o "perdidas de cámara", es decir, con esto logramos atraer completamente la atracción del usuario en nuestra escena. Por otra parte, se ha decidido no poner una base inferior o lateral a modo de suelo y parades para dar más libertad al usuario en cuanto a cámara se refiere.
+Se ha decidido tener 2 partes separadas para poder ver el contraste en ambas y así poder indagar más en la libreria Minim, el primer acercamiento con los cuadrados puede parecer algo más simple pero ayuda a consolidar las primeras nociones del tratamiento, añadimos a eso la segunda iteración de añadir la parte inferior para poder ver ambas pistas enfrentadas, lo cual, nos aporta una visión más general de lo que está pasando con el audio que está siendo reproducido.
 
 ![N|Solid](https://i.gyazo.com/2a657512c409c0cf7870a8fe749f6930.png)
 
 **Tutorial**
+No hay tutorial necesario para esta aplicación.
 
-Este apartado de tutorial se divide en dos partes, la cámara y la iluminación.
-
-Iluminación:
-
-    -Se generará un foco de luz en relación a la posición del puntero del ratón en los objetos.
-    -Existe una luz ambiental para la escena en general.
-  
-Cámara:
-
-    -Al mantener el "click-izquierdo" somos capaces de rotar la cámara por nuestra escena.
   
 **Notas del autor**
 
-A lo largo del desarrollo de la aplicación hemos sufrido diversos problemas al mantener una sesión prolongada de la mismas, estos problemas eran de carga con el disco duro. No sabemos si es un problema directo de la aplicación o algo particular e aislado. No obstante, nos vemos en la responsabilidad de comentar dicha información.
+Aportamos una canción de prueba para el funcionamiento de la aplicación, no obstante, si decide utilizar otro audio para la comprobación del mismo, recomendamos no utilizar uno con notas o partes donde el audio tenga una amplitud excesiva.
 
 Sentimos las molestias.
 
