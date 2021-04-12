@@ -25,13 +25,13 @@ Sección superior:
   en 8 filas con 8 columnas, las cuales cambian su tonalidad de negro a blanco en función de la canción u audio que se esté reproduciendo en ese momento. 
   Como apunte, si se llegan    a reproducir canciones con una ganancia muy alta, esta tabla puede verse algo mermada debido a que no tiene tanto recorrido como para representar sonido con una amplitud muy alta.
   
-![N|Solid](https://i.gyazo.com/6acf9c35d7160e79198bec371c2d5ec6.png)
+![N|Solid](https://i.gyazo.com/90ac84c64f57cd2c273c1f07c1f0268e.png)
 
 Sección inferior:
 
     -Una representación similar a la superior, no obstante en esta ocasión son líneas las que se encargan de representar lo mismo que nuestra parte superior, no obstante ahora se consigue vislumbrar mejor dado a la naturaleza de las líneas. Hemos decidido cambiar el color de las líneas para así poder distinguir mejor la separación de las mismas y poder apreciar mejor los cambios de las mismas.
 
-![N|Solid](https://i.gyazo.com/90ac84c64f57cd2c273c1f07c1f0268e.png)
+![N|Solid](https://i.gyazo.com/6acf9c35d7160e79198bec371c2d5ec6.png)
 
 **Decisiones de diseño**:
 
