@@ -37,10 +37,11 @@ Una representación similar a la superior, no obstante en esta ocasión son lín
 
 Se ha decidido tener 2 partes separadas para poder ver el contraste en ambas y así poder indagar más en la libreria Minim, el primer acercamiento con los cuadrados puede parecer algo más simple pero ayuda a consolidar las primeras nociones del tratamiento, añadimos a eso la segunda iteración de añadir la parte inferior para poder ver ambas pistas enfrentadas, lo cual, nos aporta una visión más general de lo que está pasando con el audio que está siendo reproducido.
 
-![N|Solid](https://i.gyazo.com/2a657512c409c0cf7870a8fe749f6930.png)
-
 **Tutorial**
+
 No hay tutorial necesario para esta aplicación.
+
+Simplemente añadir correctamente el archivo de audio en la línea donde se ejecuta la instrucción "minim.loadFile("CancionAAñadir.mp3");". Esto en caso de que el usuario desee cambiar el audio por defecto.
 
   
 **Notas del autor**
@@ -52,5 +53,5 @@ Sentimos las molestias.
 **Gif sobre el funcionamiento**
 
 
-![Alt Text](https://i.gyazo.com/e1c85024c81267ead8bd09bb875640cd.gif)
+![Alt Text](https://i.gyazo.com/eab7cd55dacb6cf071872aa6cd9b595f.gif)
 
